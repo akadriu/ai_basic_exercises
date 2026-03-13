@@ -1,6 +1,6 @@
 # ai_basic_exercises
 
-Local React app with twelve tabs:
+Local app with twelve interactive tabs:
 
 - Dot Product
 - Matrix Multiplication
@@ -15,7 +15,7 @@ Local React app with twelve tabs:
 - Softmax
 - Gradient
 
-Exercises are embedded directly in `app.jsx` (no runtime parsing).
+Exercises are embedded directly in `app.jsx`, with no runtime parsing.
 
 ## Run locally
 
@@ -38,3 +38,4 @@ python -m http.server 8000
 ```
 
 Then open `http://localhost:8000`.
+
