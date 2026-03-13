@@ -1,13 +1,40 @@
 # ai_basic_exercises
 
-Standalone interactive HTML exercises extracted from akadriu/ai_basics.
+Local React app with twelve tabs:
 
-## Contents
+- Dot Product
+- Matrix Multiplication
+- Linear Layer
+- Activation
+- Artificial Neuron
+- Batch
+- Connection
+- Hidden Layer
+- Deep Network
+- Wide Network
+- Softmax
+- Gradient
 
-- `index.html` bootstraps the app in the browser
-- `app.jsx` contains the interactive React exercises
-- `assets/` contains the workbook images used by the app
+Exercises are embedded directly in `app.jsx` (no runtime parsing).
 
 ## Run locally
 
-Open `index.html` in a browser, or serve the folder with a simple static server.
+Serve the project folder with a simple local server:
+
+### Option 1
+
+```bash
+cd /path/to/ai_basic_exercises
+npx serve .
+```
+
+Then open the local URL shown in the terminal.
+
+### Option 2
+
+```bash
+cd /path/to/ai_basic_exercises
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
